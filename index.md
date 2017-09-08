@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages
-<h2> He is amazing, you wanna know him? </h1>
+<h2> He is amazing, you wanna know him? </h2>
 
 You can use the [editor on GitHub](https://github.com/rkant062/rkant062.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
