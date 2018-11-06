@@ -33,8 +33,7 @@ body a:hover{
 }
 /*-- top-nav --*/  
 .top-nav {
-    background: #ec407a;
-}
+    background: #777676;}
 .nav > li {
     display: inline-block;
     padding: 1.5em 2em;
@@ -50,7 +49,7 @@ ul.nav.navbar li a {
     font-family: 'Text Me One', sans-serif;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active{ 
-	color:#ec407a;
+	color:#409eec;
 	background:transparent;
 	outline:none;
 } 
@@ -67,7 +66,7 @@ ul.nav.navbar li a:focus{
 .w3ls-hover span::before {
 	content: attr(data-letters);
 	position: absolute;
-	color: #000;
+	color: rgb(66, 61, 61);
 	left: 0;
 	overflow: hidden;
 	white-space: nowrap;
@@ -90,12 +89,12 @@ ul.nav.navbar li a.w3ls-icon{
     font-size: 1.2em; 
 }
 ul.nav.navbar li a.w3ls-icon:hover {
-	color:#000;
+	color:rgb(112, 119, 133);
 }
 /*-- //top-nav --*/
 /*-- banner --*/  
 .video {
-	background:url(../images/cv.jpg)no-repeat;
+	background:url(../images/img2.jpg)no-repeat;
     background-position:0px 0px;
 	text-align: left;
 	min-height: 100%;
@@ -109,16 +108,16 @@ ul.nav.navbar li a.w3ls-icon:hover {
     padding: 4em;
 }
 .banner-text h1 {
-    font-size: 3.5em;
+    font-size: 2em;
     color: #fff;
-	font-weight: 900;
+	font-weight: 200;
 }
 .banner-text h6 {
     font-size: 1.2em;
     color: #cac7c8;
     margin-top: 1em;
     letter-spacing: 3px;
-    font-weight: 900;
+    font-weight: 200;
 }
 .video iframe{
 width: 100%;
@@ -240,7 +239,7 @@ p {
 }
 .bar-grids h4 {
     font-size: 1.6em;
-    color: #1dadd3;
+    color: #226679;
     margin-bottom: 1.5em;
     border-bottom: 1px dashed #484848;
     padding-bottom: 0.5em;
@@ -260,7 +259,7 @@ p {
     border-radius: 0;
 }
 .progress-bar { 
-    background-color: #b3315d;
+    background-color: #20aec7;
 }
 .bar-grids h6 {
     font-size: 1em;
@@ -284,10 +283,10 @@ p {
 .experience-left {
     float: left;
     width: 30%;
-    background: #ec407a;
+    background: #4e4e4e;
     text-align: center;
     padding: 2em 0;
-    border: 2px solid #ec407a;
+    border: 2px solid #272123;
 	-webkit-transition: .5s all;
 	-moz-transition: .5s all;
 	transition: .5s all;
@@ -297,11 +296,11 @@ p {
 .experience-right {
     float: right;
     width: 70%;
-    border: 1px solid #ec407a;
+    border: 1px solid #75092d;
 	padding: 1.5em;
 }
 .experience-left h3 {
-    font-size: 1.8em;
+    font-size: 1.2em;
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 800;
@@ -312,10 +311,10 @@ p {
     margin-top: 1em;
 }
 .experience-right h4 {
-    font-size: 1.6em;
-    color: #1dadd3;
+    font-size: 1.2em;
+    color: #b30656;
     margin-bottom: 0.5em;
-	font-weight: 900;
+	font-weight: 400;
 }
 .experience-grids.experience-grids-btm {
     margin: 2em auto;
@@ -354,7 +353,7 @@ p {
 	width: 100%;
 }
 .gallery-w3ls-hover .view-caption {
-	background-color: rgba(236, 64, 122, 0.85);
+	background-color: rgba(17, 195, 240, 0.85);
 	border: 5px solid #fff;
 	bottom: 0;
 	color: #fff;
@@ -645,7 +644,7 @@ p.agile-br {
     border: none;
     box-shadow: none;
     position: absolute;
-    background: #ec407a;
+    background: #1890d6;
     width: 100%;
     z-index: 9;
 }
